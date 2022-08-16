@@ -11,11 +11,11 @@
 
     <div>
       <label for="name">Name</label><br>
-      <input type="text" id="name" name="name">
+      <input type="text" id="name" name="name" value="Dschonn Dow">
     </div>
     <div>
 <label for="email">Email</label><br>
-<input type="email" name="email" id="email">
+<input type="email" name="email" id="email" placeholder="Enter Email">
 
     </div>
     <div>
@@ -27,7 +27,7 @@
   <label for="sex">Sex</label>
 <select name="sex" id="sex">
 <option value="male">Male</option>
-<option value="female">Female</option>
+<option value="female" selected>Female</option>
 <option value="other">Other</option></select>
    <div>
 
@@ -36,10 +36,25 @@
 <div>
 <label for="birthdate">Birthdate</label>
 <input type="date" name="birthdate" id="birthdate">
-
-
-
 </div>
+<div>
+<label for="membership">Membership</label>
+<input type="radio" name="membership" value="simple" id="membership"> Simple
+<input type="radio" name="membership" value="standard" id="membership" checked> Standard
+<input type="radio" name="membership" value="super" id="membership"> Super
+</div>
+
+<div>
+  <label for="membership">I Like</label>
+  <input type="checkbox" name="Likes" value="simple" id="Likes"> Simple
+  <input type="checkbox" name="Likes" value="standard" id="Likes" checked> Standard
+  <input type="checkbox" name="Likes" value="super" id="Likes"> Super
+  </div>
+
+  <!-- button submit -->
+
+  <input type="submit" value="Submit">
+<input type="reset" value="Reset">
   </form>
 </body>
 </html>
